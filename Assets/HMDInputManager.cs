@@ -11,7 +11,16 @@ public class HMDInputManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Using device: " + XRSettings.loadedDeviceName);
+        if(XRSettings.isDeviceActive || XRSettings.loadedDeviceName == "OpenXR Display")
+        {
+            Debug.Log("VR Rig Active Using device: " + XRSettings.loadedDeviceName);
+            FPSRig.SetActive(false);
+        }
+        else
+        {
+            Debug.Log("Using FPS Rig");
+            VRRig.SetActive(false);
+        }
     }
 
     // Update is called once per frame

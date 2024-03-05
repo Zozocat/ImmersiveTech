@@ -1,0 +1,12 @@
+# ninja log v5
+487	1019	7313400440000000	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	b286a83717ff1d56
+233	2178	7313400440000000	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	66c45e721e878448
+57	2190	7313400440000000	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	91dd260cd4afa853
+118	2198	7313400440000000	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	617cda05c9da6289
+171	2205	7313400440000000	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f16b56ca3d9326d1
+1	2212	7313400440000000	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	6b68521ef60ac97d
+288	2219	7313400440000000	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	cf3c093681cb987
+384	2408	7313400440000000	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	8a7e2fc7e6a6c6f9
+1022	2440	7313400436400000	E:/UNi/Immersive Tech/ImmersiveTech/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4i363k1x/obj/arm64-v8a/libswappywrapper.so	98a53a345fbfa80f
+2408	3628	7313400447300000	E:/UNi/Immersive Tech/ImmersiveTech/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4i363k1x/obj/arm64-v8a/libgame.so	7a901d8cb22f44af
+4	595	7313418226800000	E:/UNi/Immersive Tech/ImmersiveTech/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4i363k1x/obj/arm64-v8a/libswappywrapper.so	98a53a345fbfa80f

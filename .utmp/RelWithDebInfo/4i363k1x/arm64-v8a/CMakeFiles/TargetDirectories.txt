@@ -1,0 +1,8 @@
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/GameActivity/CMakeFiles/game.dir
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+E:/UNi/Immersive Tech/ImmersiveTech/.utmp/RelWithDebInfo/4i363k1x/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
