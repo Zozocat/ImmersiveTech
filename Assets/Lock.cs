@@ -19,6 +19,7 @@ public class Lock : MonoBehaviour
     {
         if (other.tag == "Key" && locked)
         {
+            Debug.Log("Door will unlock");
             UnlockDoor();
         }
     }
@@ -27,12 +28,14 @@ public class Lock : MonoBehaviour
     {
         if (other.tag == "Key" && !locked)
         {
+            Debug.Log("Door will lock");
             LockDoor();
         }
     }
 
     private void UnlockDoor()
     {
+        Debug.Log("Door unlocked");
         door.GetComponent<Rigidbody>().isKinematic = false;
         this.GetComponent<Rigidbody>().isKinematic = false;
         locked = false;
@@ -40,6 +43,7 @@ public class Lock : MonoBehaviour
 
     private void LockDoor()
     {
+        Debug.Log("Door locked");
         door.GetComponent<Rigidbody>().isKinematic = true;
         this.GetComponent<Rigidbody>().isKinematic = true;
         locked = true;
