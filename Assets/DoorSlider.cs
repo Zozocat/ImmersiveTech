@@ -20,6 +20,8 @@ public class DoorSlider : MonoBehaviour
 
     void Start()
     {
+        openPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+
         locked = true;
         door.GetComponent<Rigidbody>().isKinematic = true;
         door.GetComponent<BoxCollider>().enabled = true;
