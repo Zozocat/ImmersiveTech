@@ -17,6 +17,8 @@ public class DoorSlider : MonoBehaviour
     private bool isOpening = false;
     private float moveDistance;
 
+    public AudioClip stone_drag;
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -25,12 +27,15 @@ public class DoorSlider : MonoBehaviour
         locked = true;
 
         moveDistance = Vector3.Distance(door.position, openPosition);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
         if (isOpening)
         {
+            
             door.position = Vector3.MoveTowards(door.position, openPosition, openSpeed * Time.deltaTime);
             if (door.position == openPosition)
             {
@@ -52,6 +57,7 @@ public class DoorSlider : MonoBehaviour
         isOpening = true;
         locked = false;
 
+        GetComponent<AudioSource>().PlayOneShot(stone_drag);
         door.GetComponent<BoxCollider>().enabled = false;
         this.GetComponent<Rigidbody>().isKinematic = false;
     }

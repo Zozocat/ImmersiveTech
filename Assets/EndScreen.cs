@@ -8,11 +8,12 @@ public class EndScreen : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("hi");
         if (other.CompareTag("Player"))
         {
             // Hide or destroy the canvas
             // Example: Hide the canvas
-            endScreen.SetActive(false);
+            endScreen.SetActive(true);
         }
     }
 

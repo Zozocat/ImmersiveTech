@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Sockets;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class DoorSlider3 : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class DoorSlider3 : MonoBehaviour
     private bool isOpening = false;
     private float moveDistance;
 
+    public AudioClip stone_drag;
+    private AudioSource audioSource;
+
 
     void Start()
     {
@@ -25,6 +29,8 @@ public class DoorSlider3 : MonoBehaviour
         locked = true;
 
         moveDistance = Vector3.Distance(door.position, openPosition);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -52,6 +58,7 @@ public class DoorSlider3 : MonoBehaviour
         isOpening = true;
         locked = false;
 
+        GetComponent<AudioSource>().PlayOneShot(stone_drag);
         door.GetComponent<BoxCollider>().enabled = false;
         this.GetComponent<Rigidbody>().isKinematic = false;
     }
