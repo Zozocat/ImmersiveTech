@@ -12,6 +12,8 @@ public class Follow : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Following");
+
         monster.speed = monsterSpeed;
 
         monster.SetDestination(Player.position);
