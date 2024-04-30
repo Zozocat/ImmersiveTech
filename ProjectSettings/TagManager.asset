@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Key
   - Lock
+  - End
   layers:
   - Default
   - TransparentFX
