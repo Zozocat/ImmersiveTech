@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class EndScreen : MonoBehaviour
 {
-    public Canvas myCanvas; // Reference to your canvas (either directly or via tag)
+    public Canvas myCanvas; // Reference to your canvas GameObject
 
-    // Example: Enable the canvas when a trigger event occurs
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("End")) // Replace "Player" with your desired tag
+        if (other.CompareTag("Player")) // Replace "Player" with your desired tag
         {
             myCanvas.enabled = true;
+        }
+    }
+
+        private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            myCanvas.enabled = false;
         }
     }
 }
