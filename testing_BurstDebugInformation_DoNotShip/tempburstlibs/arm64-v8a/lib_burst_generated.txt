@@ -14,6 +14,7 @@ Library: C:\University\Immersive Tech\ImmersiveTech\Temp\BurstOutput\tempburstli
 --assembly-defines=System.Core;
 --assembly-defines=System;
 --assembly-defines=System.Xml;
+--assembly-defines=Unity.AI.Navigation;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
 --assembly-defines=Unity.Collections;
@@ -127,6 +128,7 @@ Library: C:\University\Immersive Tech\ImmersiveTech\Temp\BurstOutput\tempburstli
 --assembly-defines=System.Core;
 --assembly-defines=System;
 --assembly-defines=System.Xml;
+--assembly-defines=Unity.AI.Navigation;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
 --assembly-defines=Unity.Collections;

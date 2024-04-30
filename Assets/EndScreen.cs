@@ -4,21 +4,16 @@ using UnityEngine;
 
 public class EndScreen : MonoBehaviour
 {
-    public Canvas myCanvas; // Reference to your canvas GameObject
+    public GameObject endScreen;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // Replace "Player" with your desired tag
+        if (other.CompareTag("Player"))
         {
-            myCanvas.enabled = true;
+            // Hide or destroy the canvas
+            // Example: Hide the canvas
+            endScreen.SetActive(false);
         }
     }
 
-        private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            myCanvas.enabled = false;
-        }
-    }
 }
