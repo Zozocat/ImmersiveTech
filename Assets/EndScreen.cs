@@ -1,19 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndScreen : MonoBehaviour
 {
-    public GameObject endScreen;
+    public string nextSceneName; // Assign the name of the scene you want to load in the Inspector
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("hi");
-        if (other.CompareTag("Player"))
+        if (other.tag == "Player")
         {
-            // Hide or destroy the canvas
-            // Example: Hide the canvas
-            endScreen.SetActive(true);
+            Debug.Log("End triggered");
+            SceneManager.LoadScene(nextSceneName); // Load the specified scene
         }
     }
 
