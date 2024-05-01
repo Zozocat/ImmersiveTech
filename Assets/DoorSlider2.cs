@@ -64,3 +64,5 @@ public class DoorSlider2 : MonoBehaviour
     }
 
 }
+
+//AI was used to help write this script

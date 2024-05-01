@@ -13,3 +13,6 @@ public class DeleteKey : MonoBehaviour
         }
     }
 }
+
+
+//AI was used to help write this script

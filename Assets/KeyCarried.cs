@@ -19,3 +19,5 @@ public class KeyCarried : MonoBehaviour
         GetComponent<AudioSource>().PlayOneShot(key_jingle);
     }
 }
+
+//AI was used to help write this script

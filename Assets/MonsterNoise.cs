@@ -32,7 +32,7 @@ public class MonsterNoise : MonoBehaviour
             float distance = Vector3.Distance(transform.position, player.position);
             if (distance > maxDistance)
             {
-                keepPlaying = false;  // Stop playing when player leaves the room
+                keepPlaying = false; 
                 break;
             }
 
@@ -46,3 +46,5 @@ public class MonsterNoise : MonoBehaviour
         keepPlaying = false;
     }
 }
+
+//AI was used to help write this script

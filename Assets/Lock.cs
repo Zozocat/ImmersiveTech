@@ -49,3 +49,5 @@ public class Lock : MonoBehaviour
         locked = true;
     }
 }
+
+//AI was used to help write this script

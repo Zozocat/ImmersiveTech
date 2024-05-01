@@ -5,15 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class EndScreen : MonoBehaviour
 {
-    public string nextSceneName; // Assign the name of the scene you want to load in the Inspector
+    public string nextSceneName;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
             Debug.Log("End triggered");
-            SceneManager.LoadScene(nextSceneName); // Load the specified scene
+            SceneManager.LoadScene(nextSceneName); 
         }
     }
 
 }
+
+//AI was used to help write this script

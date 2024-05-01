@@ -19,3 +19,5 @@ public class Follow : MonoBehaviour
         monster.SetDestination(Player.position);
     }
 }
+
+//AI was used to help write this script
